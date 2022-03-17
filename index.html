@@ -20,16 +20,17 @@
         <label for="email">Email address</label>
         <input type="email" name="email"id="email"class="form-control"placeholder="Enter your Email"required/>
         <input type="number" id="number" />
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-
-      <button type="submit" class="btn btn-primary">Submit</button>
+        <label>
+          <inputname="user-recommend" value="definitely"type="radio" class="input-radio" checked/></label>
+  <div class="form-group">
+  <p>Which option best describes your current role?</p>
+  <select id="dropdown" name="role" class="form-control" required>
+    <option value="student">Student</option>
+  </select>
+</div>
     </form>
+
     <script  src="js/index.js"></script>
   </body>
 </html>
