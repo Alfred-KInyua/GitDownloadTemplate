@@ -12,41 +12,26 @@
     <h1 id="title">Hello World!</h1>
    <p id="description"> We are collaborating with Dev with the aim of developingh the survey 
      form </p>
-<<<<<<< HEAD
      <form id="survey-form">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label" id="name">My name</label>
-        <input type="text" class="form-control">
-=======
-     <form>
-      <div class="mb-3">
->>>>>>> 6a99e6856cca7bd0a8afa76ed03c4e83d6ba1479
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"required/>
+        <label for="email">Email address</label>
+        <input type="email" name="email" class="form-control" id="email"/>
       </div>
-      <div class="mb-3">
+      </form>
+     <form>
+        <label for="email">Email address</label>
+        <input type="email" name="email" class="form-control" id="email">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
+
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
